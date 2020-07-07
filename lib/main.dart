@@ -123,10 +123,13 @@ class _HomeState extends State<Home> {
             ),
             FlatButton(
               onPressed: () {
-                print("this is slideIndex: $slideIndex");
-                controller.animateToPage(slideIndex + 1,
-                    duration: Duration(milliseconds: 500),
-                    curve: Curves.linear);
+                if (slideIndex != 2) {
+                  controller.animateToPage(slideIndex + 1,
+                      duration: Duration(milliseconds: 500),
+                      curve: Curves.linear);
+                } else {
+                  //Go to how to meditate screen
+                }
               },
               splashColor: Colors.blue[50],
               child: Text(
