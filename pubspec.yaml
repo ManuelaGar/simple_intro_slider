@@ -1,0 +1,44 @@
+name: intro_carrusel
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+  fonts:
+    - family: Merriweather
+      fonts:
+        - asset: fonts/Merriweather-Regular.ttf
+
+    - family: PlaylistScript
+      fonts:
+        - asset: fonts/Playlist-Script.ttf
+
+    - family: Kollektif
+      fonts:
+        - asset: fonts/Kollektif.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+
+    - family: Belleza
+      fonts:
+        - asset: fonts/Belleza-Regular.ttf
