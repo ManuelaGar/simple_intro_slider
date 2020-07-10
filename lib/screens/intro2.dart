@@ -9,14 +9,12 @@ class Intro2 extends StatelessWidget {
         Expanded(
           child: Container(
             alignment: Alignment.bottomCenter,
-            //margin: EdgeInsets.fromLTRB(20.0, 40.0, 20.0, 10.0),
-            padding: EdgeInsets.fromLTRB(15.0, 100.0, 15.0, 20.0),
+            padding: EdgeInsets.fromLTRB(15.0, 100.0, 15.0, 80.0),
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('images/baobab.png'),
                 fit: BoxFit.cover,
               ),
-              //borderRadius: BorderRadius.circular(10.0),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -34,7 +32,7 @@ class Intro2 extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 8.0),
                     height: 1.5,
                     width: MediaQuery.of(context).size.width * 0.35,
-                    color: Colors.white,
+                    color: Color(0xFF0066B1),
                   ),
                 ),
                 Expanded(

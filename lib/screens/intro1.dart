@@ -20,7 +20,7 @@ class Intro1 extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
             child: Text(
-              'Healng Presents',
+              'Healing Presents',
               style: TextStyle(
                 color: Color(0xFF0066B1),
                 fontFamily: 'PlaylistScript',
@@ -32,7 +32,7 @@ class Intro1 extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 30.0),
             child: Text(
-              'Es una app diseñada especialmente para pacientes con cancer. En donde se hace uso de terapias Mente-Cuerpo para mejorar la calidad de vida y el bienestar fisico, mental y emocional de quienes la utilizan.',
+              'Es una app diseñada especialmente para pacientes con cancer. Basada terapias Mente-Cuerpo para mejorar la calidad de vida y el bienestar fisico, mental y emocional de quienes la utilizan.',
               style: TextStyle(
                 color: Colors.black54,
                 fontWeight: FontWeight.w500,
